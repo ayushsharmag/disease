@@ -1,0 +1,58 @@
+.color1 {color: #442e4f;}
+.color2 {color: #6e4067;}
+.color3 {color: #ac598b;}
+.color4 {color: #f180b3;}
+.color5 {color: #f6aad3;}
+
+h2{
+    /* color: red; */
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif ;
+    /* font-style: italic; */
+}
+*{
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+body{
+    background: url("/static/images/img.jpg");
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+    color: white;
+    padding: 2rem;
+    /* border: 2px solid black; */
+    width: max-content;
+    border-radius: 2rem;
+    background:  black;
+    opacity: 0.8;
+}
+button{
+    width: 25%;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+form{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style:italic;
+}
+h3{
+    padding-top: 1rem;
+    /* text-align: left; */
+    font-size: 1.6rem;
+    color: sandybrown;
+}
+
